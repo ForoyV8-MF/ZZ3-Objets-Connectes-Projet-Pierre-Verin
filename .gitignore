@@ -4,3 +4,8 @@
 .vscode/launch.json
 .vscode/ipch
 .cache/
+
+Rapport/LateX/target/Objets_Connectes_Pierre_Verin_Rapport.aux
+Rapport/LateX/target/Objets_Connectes_Pierre_Verin_Rapport.log
+Rapport/LateX/target/Objets_Connectes_Pierre_Verin_Rapport.out
+Rapport/LateX/target/Objets_Connectes_Pierre_Verin_Rapport.toc
