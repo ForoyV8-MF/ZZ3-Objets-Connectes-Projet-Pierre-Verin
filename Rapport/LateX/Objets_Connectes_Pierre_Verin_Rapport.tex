@@ -16,12 +16,12 @@
 
 \author
 {
-  Pierre Élise \\ \texttt{ISIMA, ZZ3 F1}
+  Pierre Élise \\ \texttt{ISIMA 27, ZZ3 F1}
   \and
-  Vérin Clément \\ \texttt{Bradford University}
+  Vérin Clément \\ \texttt{ISIMA 27, ZZ3 F1}
 }
 
-\title{}
+\title{ZZ3 : Projet d'Objets Connectés}
 
 \hypersetup
 {
@@ -51,7 +51,7 @@
 % \end{figure}
 
 \begin{center}
-  \href{https://github.com/ForoyV8-MF/ZZ3-Objets-Connectes-Projet-Pierre-Verin.git} {Deposit Link}
+  \href{https://github.com/ForoyV8-MF/ZZ3-Objets-Connectes-Projet-Pierre-Verin.git} {GitHub Deposit Link}
 \end{center}
 
 \renewcommand{\contentsname}{Summary}
@@ -64,13 +64,38 @@
 
 \newpage
 
+\section{Brouillon}
+
+- Bootloading via double TAP rapide sur Reset, qui n'est pas ouvert aux drag and drop\\
+- On utilise PlatformIO avec le module Arduino (Pas commun selon le professeur)\\
+- Suppression du fichier .pio des build\\
+- On se renseigne sur le RAK11300.\\
+
 \section{Introduction}
-On August 2012 the 6th, the Rover \textit{Curiosity} landed in \textit{Gale's Crater} on \textit{Mars}. Despite sandstorms, dust, radiations, brutal temperature drops and raises \textit{Curiosity} is still working today.
-Thanks to \textit{Curiosity} and the other Rovers on \textit{Mars}, we have been able to daily sample and measure the weather on \textit{Mars}.\\
 
-\section{}
+L'objectif est de faire fonctionner 
 
-\subsection{}
+\section{Installation de l'Environnement}
+
+Soucis de connexion avec la carte\\
+FInalement ça marche !\\
+
+\section{Bavardage avec la Carte}
+
+La console de Debug représente le terminal intégré de la carte : elle n'affiche rien pour l'instant.\\
+Pour l'instant PlatformIO compilait et générait le fichier binaire seulement : il faut bien penser à Uploader.\\
+
+ça marche !\\
+
+Board.txt pour l'assignation de pattes I2C non configuré.\\
+Il faut l'importer via le module de Recherche BOARD de PlatformIO --> Chercher le nom de la carte.\\
+
+On se renseigne sur le RAK11300 utilisé en WisBlock via son Datasheet.\\
+Pour le connector A, nous sommes sur du I2C.\\
+
+Nous avons séléctionné la bonne carte, mais nous cherchons le fichier de définition des bords par e WireBoard.\\ --> Il faut fiare un patch ?\\
+
+\href{https://github.com/RAKWireless/WisBlock/tree/master/PlatformIO} {Github RAKWireless}
 
 \subsection{}
 
